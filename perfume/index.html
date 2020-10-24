@@ -100,7 +100,7 @@
       <div id="Trademark">
         <h2>Trademark</h2>
         <h4>A few brands</h4>
-        <div class="row text-center">
+        <div class="rowtext-center">
           <div>
             <div>
               <img src="./Media/image/trademark/burberry.jpg" alt="Paris">
@@ -234,25 +234,31 @@
     <div class="buy">
       <div id="cart" class="modal_cart" style="display: block;">
         <div class="newcontainer">
-          <h3 id="modal_cart_title">Giỏ hàng</h3>
-          <div class="slice_bar"></div>
-          <div class="modal_cart_block_catgory">
-            <div class="products">Name</div>
-            <div class="price">Brand</div>
-            <div class="numbers">Prize</div>
-            <div class="numbers">Size</div>
-            <div class="numbers">Sex</div>
-            <div class="numbers">Scent</div>
+          <div style="flex:1">
+            <h3 id="modal_cart_title">Giỏ hàng</h3>
+            <div class="slice_bar"></div>
+            <div class="modal_cart_block_catgory">
+              <div class="products">Name</div>
+              <div class="price">Brand</div>
+              <div class="numbers">Prize</div>
+              <div class="numbers">Size</div>
+              <div class="numbers">Sex</div>
+              <div class="numbers">Scent</div>
+            </div>
           </div>
-          <div id="container_cart_items">
+          <div id="container_cart_items" style="flex:3">
 
           </div>
-          <div class="bottom_slice_bar"></div>
-          <div id="sum_price_title" class="sum_price_title">Tổng Giá Tien</div>
-          <div id="sum_price" class="sum_price"> vnd</div>
-          <button class="cart_cancel_button"
-            onclick="document.getElementById(`cart`).style.display=`none`">Đóng</button>
-          <button id="cart_pay_button" class="cart_pay_button">Hoá Đơn</button>
+          <div style="flex:1">
+            <div class="bottom_slice_bar"></div>
+            <div id="sum_price_title" class="sum_price_title">Tổng Giá Tien</div>
+            <div id="sum_price" class="sum_price"> vnd</div>
+            
+            <button class="cart_cancel_button"
+              onclick="document.getElementById(`cart`).style.display=`none`">Đóng</button>
+            <button id="cart_pay_button" class="cart_pay_button">Hoá Đơn</button>
+          
+          </div>
         </div>
       </div>
       <!-- het gio hang -->
