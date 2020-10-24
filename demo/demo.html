@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buy">
+        <div id="cart" class="modal_cart" style="display: block;">
+            <div class="container">
+                <h3 id="modal_cart_title">Giỏ hàng</h3>
+                <div class="slice_bar"></div>
+                <div class="modal_cart_block_catgory">
+                    <div class="products">Name</div>
+                    <div class="price">Brand</div>
+                    <div class="numbers">Prize</div>
+                    <div class="numbers">Size</div>
+                    <div class="numbers">Sex</div>
+                    <div class="numbers">Scent</div>
+                </div>
+                <div id="container_cart_items">
+
+                </div>
+                <div class="bottom_slice_bar"></div>
+                <div id="sum_price_title" class="sum_price_title">Tổng Giá Tien</div>
+                <div id="sum_price" class="sum_price"> vnd</div>
+                <button class="cart_cancel_button" onclick="document.getElementById(`cart`).style.display=`none`">Đóng</button>
+                <button id="cart_pay_button" class="cart_pay_button">Hoá Đơn</button>
+            </div>
+        </div>
+  
+</body>
+</html>
